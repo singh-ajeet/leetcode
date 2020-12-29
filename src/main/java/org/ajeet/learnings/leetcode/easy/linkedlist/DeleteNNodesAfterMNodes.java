@@ -1,10 +1,13 @@
 package org.ajeet.learnings.leetcode.easy.linkedlist;
 
+import java.util.ArrayList;
+
 public class DeleteNNodesAfterMNodes {
 
     public static ListNode deleteNodes(ListNode head, int m, int n) {
         ListNode previous = head;
         ListNode current = head;
+
 
         while(current != null){
             int m1 = m;
